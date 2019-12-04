@@ -1,0 +1,9 @@
+diff a/maikai_java/src/e_01_01/E_01_01.java b/maikai_java/src/e_01_01/E_01_01.java	(rejected hunks)
+@@ -7,7 +7,6 @@
+ public class E_01_01 {
+    public static void main(String[] args) {
+ 
+-		//Hello Java�Ƃ���������o�͂���ׂ̖��ߕ�
+       //Hello Java�Ƃ���������o�͂���ׂ̖��ߕ�.
+          System.out.println("Hello Java");
+     }
