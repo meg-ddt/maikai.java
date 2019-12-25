@@ -20,10 +20,10 @@ public class E_02_04 {
 		int extractedValue = stdIn.nextInt();
 
 		// キーボードにて設定された値に10加算された値を出力
-		System.out.println("10を加えた値は" + ( extractedValue + 10) + "です。");
+		System.out.println("10を加えた値は" + (extractedValue + 10) + "です。");
 
 		// キーボードにて設定された値に10減算された値を出力
-		System.out.println("10を減じた値は" + ( extractedValue - 10) + "です。");
+		System.out.println("10を減じた値は" + (extractedValue - 10) + "です。");
 
 	}
 }
