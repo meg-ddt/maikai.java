@@ -33,7 +33,7 @@ public class E_02_07 {
 
 		// 2桁の正の整数値(10以上99以下の値)をランダムに生成して表示
 		// 10から99桁の値をランダムで生成
-		int sinceYears = rand.nextInt(99) + 10;
+		int sinceYears = rand.nextInt(90) + 10;
 		// 生成された値を出力
 		System.out.println("9月の気温では" + sinceYears + "年振りの気温です。");
 
