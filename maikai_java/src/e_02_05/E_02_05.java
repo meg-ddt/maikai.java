@@ -16,19 +16,16 @@ public class E_02_05 {
 
 		// 読み込まれた値を抽出。
 		System.out.println("アイススケートショートプログラムの得点 ： ");
-
 		// 抽出された値をｘに代入。
 		double x = stdIn.nextDouble();
 
 		// 読み込まれた値を抽出。
 		System.out.println("アイススケートフリープログラムの得点 ： ");
-
 		// 抽出された値をyに代入。
 		double y = stdIn.nextDouble();
 
 		// ショートとフリーの合計した値を出力
 		System.out.println("得点の合計は" + (x + y) + "です。");
-
 		// ショートとフリーの合計した値を出力
 		System.out.println("得点の平均は" + (x + y) / 2 + "です。");
 
