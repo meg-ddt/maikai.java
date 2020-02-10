@@ -21,7 +21,7 @@ public class E_02_08 {
 
 		// 乱数を行う決まり文
 		Random rand = new Random();
-		// 抽出した正の整数値に±５を足した値をランダムに生成
+		// 抽出した値の±５の範囲から、値をランダムに生成
 		int randomValue = rand.nextInt(11) + -5;
 		// 抽出した値とランダムに生成した値を足す
 		int randomNnumber = (extractedValue + randomValue);
