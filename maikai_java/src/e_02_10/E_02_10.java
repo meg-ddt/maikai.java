@@ -15,12 +15,12 @@ public class E_02_10 {
 		Scanner nameLast= new Scanner(System.in);
 		Scanner nameFirst = new Scanner(System.in);
 
-		// 読み込まれた値を抽出。
-		System.out.print("性 ： ");
+		// ()内を表示。
+		System.out.print("姓 ： ");
 		// 抽出された値を代入。
 		String familyName = nameLast.next();
 
-		// 読み込まれた値を抽出。
+		// ()内を表示。
 		System.out.print("名 ： ");
 		// 抽出された値を代入。
 		String firstName = nameFirst.next();
