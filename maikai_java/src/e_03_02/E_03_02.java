@@ -16,7 +16,6 @@ public class E_03_02 {
 	public static void main(String[] args) {
 
 		Scanner integerA = new Scanner(System.in);
-		Scanner integerB = new Scanner(System.in);
 
 		// 読み込まれた値を抽出。
 		System.out.print("整数A ： ");
@@ -26,16 +25,16 @@ public class E_03_02 {
 		// 読み込まれた値を抽出。
 		System.out.print("整数B ： ");
 		// 抽出された値を代入。
-		int seisuuB = integerB.nextInt();
+		int seisuuB = integerA.nextInt();
 
-		// 整数値が0より大きい場合
-		if ( seisuuA % seisuuB == 0 )
-			// 絶対値の値を出力
-			System.out.println( "BはAの約数です。");
-		// 整数値が0より小さい場合
-		else
-			// 絶対値の値を出力
-			System.out.println( "BはAの約数ではありません。");
-
+		// 整数Bが整数Aの約数か否かを判断
+		if (seisuuA % seisuuB == 0) {
+			//約数の場合、約数である旨を表示
+			System.out.println("BはAの約数です。");
+			//
+		} else {
+			//約数でない場合、約数でない旨を表示
+			System.out.println("BはAの約数ではありません。");
+		}
 	}
 }
