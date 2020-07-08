@@ -21,11 +21,11 @@ public class E_02_08 {
 
 		// 乱数を行う決まり文
 		Random rand = new Random();
-		// 抽出した値の±５の範囲から、値をランダムに生成
+		// ±５の範囲から、値をランダムに生成
 		int randomValue = rand.nextInt(11) + -5;
 		// 抽出した値とランダムに生成した値を足す
 		int randomNnumber = (extractedValue + randomValue);
-		// 抽出した値とランダムに生成した値を足す
+		// 抽出した値とランダムに生成した値を足したものを表示
 		System.out.println("その値の±５の乱数を生成しました。それは" + randomNnumber + "です。");
 
 	}
