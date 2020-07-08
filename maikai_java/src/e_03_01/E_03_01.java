@@ -19,18 +19,14 @@ public class E_03_01 {
 		// 抽出された値を代入。
 		int integerValue = stdIn.nextInt();
 
-		// 整数値が0より大きい場合
-		if (integerValue > 0)
+		// 整数値が0以上の場合
+		if (integerValue >= 0) {
 			// 絶対値の値を出力
 			System.out.println("絶対値は" + integerValue + "です。");
-		// 整数値が0より小さい場合
-		else if (integerValue < 0)
+		// 整数値が0未満の場合
+		} else {
 			// 絶対値の値を求めるためマイナスを反転させて出力
 			System.out.println("絶対値は" + -integerValue + "です。");
-		// 0である場合（それ以外）
-		else
-			// 絶対値の値を出力
-			System.out.println("絶対値は" + integerValue + "です。");
-
+		}
 	}
 }
