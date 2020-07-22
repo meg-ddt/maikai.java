@@ -32,17 +32,17 @@ public class E_03_04 {
 		int acornOfKashiwa = acornHeightKashiwa.nextInt();
 
 		// クヌギの方が大きい場合
-		if (acornOfKunugi > acornOfKashiwa)
+		if (acornOfKunugi > acornOfKashiwa) {
 			// どちらが大きいか結果を出力
 			System.out.println("ｸﾇｷﾞのどんぐりのほうが大きいです。");
-		// カシワの方が大きい場合
-		else if (acornOfKunugi < acornOfKashiwa)
+			// カシワの方が大きい場合
+		} else if (acornOfKunugi < acornOfKashiwa) {
 			// どちらが大きいか結果を出力
 			System.out.println("ｶｼﾜのどんぐりのほうが大きいです。");
-		// クヌギとカシワが同じ高さの場合
-		else if (acornOfKunugi == acornOfKashiwa)
+			// クヌギとカシワが同じ高さの場合
+		} else if (acornOfKunugi == acornOfKashiwa) {
 			// どちらが大きいか結果を出力
 			System.out.println("ｸﾇｷﾞとｶｼﾜは同じ大きさです。");
-
+		}
 	}
 }
