@@ -20,20 +20,20 @@ public class E_03_05 {
 		// 文言の表示
 		System.out.print("正の整数値を入力してください。：");
 		// 抽出された値を代入。
-		int seisuuA = integerValue.nextInt();
+		int integralNumber = integerValue.nextInt();
 
 		// 整数値が5で割り切れる場合
-		if (seisuuA % 5 == 0 && seisuuA > 0) {
+		if (integralNumber % 5 == 0 && integralNumber > 0) {
 			// 結果を出力
 			System.out.println("その値は5で割り切れます。");
 			// 整数値が5で割り切れない場合
-		} else if (seisuuA % 5 != 0 && seisuuA > 0) {
+		} else if (integralNumber % 5 != 0 && integralNumber > 0) {
 			// 結果を出力
 			System.out.println("その値は5で割り切れません。");
 			// マイナスの値が出力された場合
 		} else {
 			// 絶対値の値を出力
-			System.out.println("正ではない値が入力しされました。");
+			System.out.println("正ではない値が入力されました。");
 		}
 	}
 }
