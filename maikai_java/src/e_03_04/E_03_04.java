@@ -16,33 +16,32 @@ public class E_03_04 {
 	public static void main(String[] args) {
 
 		/*
-		 * aをクヌギのどんぐりの背丈、 bをカシワのどんくりの背丈と置き換え、 背比べを行うプログラムを作成する
+		 * a社会の点数を、 b理科の点数と置き換え、プログラムを作成する
 		 */
 
-		Scanner acornHeightKunugi = new Scanner(System.in);
-		Scanner acornHeightKashiwa = new Scanner(System.in);
+		Scanner testScore = new Scanner(System.in);
 
 		// 読み込まれた値を抽出。
-		System.out.print("ｸﾇｷﾞのどんぐりの背丈(mm) ：");
+		System.out.print("社会の点数 ：");
 		// 抽出された値を代入。
-		int acornOfKunugi = acornHeightKunugi.nextInt();
+		int socialScore = testScore.nextInt();
 		// 読み込まれた値を抽出。
-		System.out.print("ｶｼﾜのどんぐりの背丈(mm) ： ");
+		System.out.print("理科の点数 ： ");
 		// 抽出された値を代入。
-		int acornOfKashiwa = acornHeightKashiwa.nextInt();
+		int scienceScore = testScore.nextInt();
 
-		// クヌギの方が大きい場合
-		if (acornOfKunugi > acornOfKashiwa) {
+		// 社会の点数が大きい場合
+		if (socialScore > scienceScore) {
 			// どちらが大きいか結果を出力
-			System.out.println("ｸﾇｷﾞのどんぐりのほうが大きいです。");
-			// カシワの方が大きい場合
-		} else if (acornOfKunugi < acornOfKashiwa) {
+			System.out.println("社会の点数のほうが高いです。");
+			// 理科の点数が大きい場合
+		} else if (socialScore < scienceScore) {
 			// どちらが大きいか結果を出力
-			System.out.println("ｶｼﾜのどんぐりのほうが大きいです。");
-			// クヌギとカシワが同じ高さの場合
-		} else if (acornOfKunugi == acornOfKashiwa) {
+			System.out.println("理科の点数のほうが高いです。");
+			// 社会の点数と理科の点数が同じの場合
+		} else if (socialScore == scienceScore) {
 			// どちらが大きいか結果を出力
-			System.out.println("ｸﾇｷﾞとｶｼﾜは同じ大きさです。");
+			System.out.println("社会の点数・理科の点数どちらも同じ点数です。");
 		}
 	}
 }
