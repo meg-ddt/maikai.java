@@ -15,20 +15,20 @@ public class E_03_02 {
 
 	public static void main(String[] args) {
 
-		Scanner integerA = new Scanner(System.in);
+		Scanner scanInteger = new Scanner(System.in);
 
 		// 読み込まれた値を抽出。
 		System.out.print("整数A ： ");
 		// 抽出された値を代入。
-		int seisuuA = integerA.nextInt();
+		int firstInteger = scanInteger.nextInt();
 
 		// 読み込まれた値を抽出。
 		System.out.print("整数B ： ");
 		// 抽出された値を代入。
-		int seisuuB = integerA.nextInt();
+		int nextInteger = scanInteger.nextInt();
 
 		// 整数Bが整数Aの約数か否かを判断
-		if (seisuuA % seisuuB == 0) {
+		if (firstInteger % nextInteger == 0) {
 			//約数の場合、約数である旨を表示
 			System.out.println("BはAの約数です。");
 			//
