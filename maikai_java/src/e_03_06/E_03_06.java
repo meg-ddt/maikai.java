@@ -15,19 +15,19 @@ public class E_03_06 {
 
 	public static void main(String[] args) {
 
-		Scanner integerValue = new Scanner(System.in);
+		Scanner scanInteger = new Scanner(System.in);
 
 		// 文言の表示
 		System.out.print("正の整数値を入力してください。");
 		// 入力された値を代入
-		int seisuuA = integerValue.nextInt();
+		int firstInteger = scanInteger.nextInt();
 
 		// 入力された整数が10で割り切れ、10以上である場合
-		if (seisuuA % 10 == 0 && seisuuA >= 10) {
+		if (firstInteger % 10 == 0 && firstInteger >= 10) {
 			// 結果を表示
 			System.out.println("その値は10の倍数です。");
 			// 入力された整数が10で割り切れず、0より大きい場合
-		} else if (seisuuA % 10 != 0 && seisuuA > 0) {
+		} else if (firstInteger % 10 != 0 && firstInteger > 0) {
 			// 結果を表示
 			System.out.println("その値は10の倍数ではありません。");
 			// 上記の条件以外の場合
