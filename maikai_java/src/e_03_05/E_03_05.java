@@ -28,7 +28,7 @@ public class E_03_05 {
 				// 結果を出力
 				System.out.println("その値は5で割り切れます。");
 				// 整数値が5で割り切れない場合
-			} else if (integralNumber % 5 != 0) {
+			} else {
 				// 結果を出力
 				System.out.println("その値は5で割り切れません。");
 			}
