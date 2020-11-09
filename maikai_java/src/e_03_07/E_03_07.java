@@ -24,18 +24,20 @@ public class E_03_07 {
 		// 抽出された値を代入。
 		int firstInteger = scanInteger.nextInt();
 
-		// 整数値が3で割り切れた場合
-		if (firstInteger % 3 == 0 && firstInteger > 0) {
-			// 結果を出力
-			System.out.println("その値は3で割り切れます。");
-			// 整数値が3で割った余りは1の場合
-		} else if (firstInteger % 3 == 1 && firstInteger > 0) {
-			// 結果を出力
-			System.out.println("その値は3で割った余りは1です。");
-			// 整数値が3で割った余りは2の場合
-		} else if (firstInteger % 3 == 2 && firstInteger > 0) {
-			// 結果を出力
-			System.out.println("その値は3で割った余りは2です。");
+		if (firstInteger > 0) {
+			// 整数値が3で割り切れた場合
+			if (firstInteger % 3 == 0) {
+				// 結果を出力
+				System.out.println("その値は3で割り切れます。");
+				// 整数値が3で割った余りは1の場合
+			} else if (firstInteger % 3 == 1) {
+				// 結果を出力
+				System.out.println("その値は3で割った余りは1です。");
+				// 整数値が3で割った余りは2の場合
+			} else {
+				// 結果を出力
+				System.out.println("その値は3で割った余りは2です。");
+			}
 			// マイナスの値が出力された場合
 		} else {
 			// 絶対値の値を出力
