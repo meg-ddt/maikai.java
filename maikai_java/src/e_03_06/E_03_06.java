@@ -22,15 +22,19 @@ public class E_03_06 {
 		// 入力された値を代入
 		int firstInteger = scanInteger.nextInt();
 
-		// 入力された整数が10で割り切れ、10以上である場合
-		if (firstInteger % 10 == 0 && firstInteger >= 10) {
-			// 結果を表示
-			System.out.println("その値は10の倍数です。");
-			// 入力された整数が10で割り切れず、0より大きい場合
-		} else if (firstInteger % 10 != 0 && firstInteger > 0) {
-			// 結果を表示
-			System.out.println("その値は10の倍数ではありません。");
-			// 上記の条件以外の場合
+		// 入力された値が0以上の場合
+		if (firstInteger > 0) {
+			// 入力された整数が10で割り切れる場合
+			if (firstInteger % 10 == 0) {
+				// 結果を表示
+				System.out.println("その値は10の倍数です。");
+				// 入力された整数が10で割り切れない場合
+			} else {
+				// 結果を表示
+				System.out.println("その値は10の倍数ではありません。");
+				// 上記の条件以外の場合
+			}
+			// 入力された値がマイナスの場合
 		} else {
 			// 結果を表示
 			System.out.println("正ではない値が入力されました。");
